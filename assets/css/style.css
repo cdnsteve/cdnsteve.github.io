@@ -21,7 +21,8 @@ h1 {
 }
 h4 {
     color: #26A9E0;
-    margin:auto;
+    text-align:center;
+    word-wrap: break-word;
 }
 .container {
     margin:auto;
