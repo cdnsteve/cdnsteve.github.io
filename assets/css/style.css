@@ -26,12 +26,11 @@ h4 {
 .container {
     margin:auto;
     margin-top: 100px;
-    width: 600px;
+    width: 100%;
 }
 .profile {
     margin:auto;
     display: flex;
-    width: 500px;
     flex-direction: column;
     align-content: center;
 }
@@ -48,9 +47,10 @@ h4 {
 } 
 ul {
    display: flex;
-   width: 500px;
+   max-width: 500px;
    align-content: center;
-   margin-top: 40px;
+   padding-top: 30px;
+   margin:auto;
 }
 ul li {
     margin: auto;
